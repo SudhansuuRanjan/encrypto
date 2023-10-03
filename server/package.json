@@ -1,0 +1,40 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js"
+    },
+    "keywords": [],
+    "author": "Sudhanshu Ranjan",
+    "license": "ISC",
+    "dependencies": {
+        "@faker-js/faker": "^8.0.2",
+        "alchemy-sdk": "^2.9.2",
+        "axios": "^1.4.0",
+        "bcryptjs": "^2.4.3",
+        "cloudinary": "^1.37.3",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.1.1",
+        "ethers": "^5.7.0",
+        "express": "^4.18.2",
+        "express-async-handler": "^1.2.0",
+        "express-fileupload": "^1.4.0",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^7.2.2",
+        "zod": "^3.21.4"
+    },
+    "devDependencies": {
+        "@types/bcryptjs": "^2.4.2",
+        "@types/cookie-parser": "^1.4.3",
+        "@types/cors": "^2.8.13",
+        "@types/express": "^4.17.17",
+        "@types/express-fileupload": "^1.4.1",
+        "@types/jest": "^29.5.3",
+        "@types/jsonwebtoken": "^9.0.2"
+    }
+}
